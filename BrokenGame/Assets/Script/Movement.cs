@@ -4,23 +4,29 @@ public class Movement : MonoBehaviour
 {
     public float moveSpeed = 5f;
     private Rigidbody2D rb;
+    private Animator anim;
     private float moveInput;
 
     void Start()
     {
-        // Get the Rigidbody2D component attached to this GameObject
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     void Update()
     {
-        // Get horizontal input (-1 for Left/A, 1 for Right/D, 0 for no input)
         moveInput = Input.GetAxisRaw("Horizontal");
+
+        // Pass movement state or speed magnitude to the Animator
+        // If using a float parameter named "Speed":
+        anim.SetFloat("Speed", Mathf.Abs(moveInput));
+
+        // Optional: If using a bool parameter named "IsMoving":
+        // anim.SetBool("IsMoving", moveInput != 0f);
     }
 
     void FixedUpdate()
     {
-        // Set the velocity on the X-axis while keeping the current Y velocity (for gravity/jumping)
         rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
     }
 }
