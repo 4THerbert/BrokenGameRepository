@@ -5,24 +5,32 @@ public class Movement : MonoBehaviour
     public float moveSpeed = 5f;
     private Rigidbody2D rb;
     private Animator anim;
+    private SpriteRenderer spriteRenderer; // Reference to the SpriteRenderer
     private float moveInput;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>(); // Get the component
     }
 
     void Update()
     {
         moveInput = Input.GetAxisRaw("Horizontal");
 
-        // Pass movement state or speed magnitude to the Animator
-        // If using a float parameter named "Speed":
-        anim.SetFloat("Speed", Mathf.Abs(moveInput));
+        // Flip the sprite based on movement direction
+        if (moveInput > 0f)
+        {
+            spriteRenderer.flipX = true; // Facing right
+        }
+        else if (moveInput < 0f)
+        {
+            spriteRenderer.flipX = false; // Facing left
+        }
 
-        // Optional: If using a bool parameter named "IsMoving":
-        // anim.SetBool("IsMoving", moveInput != 0f);
+        // Pass movement speed magnitude to the Animator
+        anim.SetFloat("Speed", Mathf.Abs(moveInput));
     }
 
     void FixedUpdate()
