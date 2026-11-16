@@ -5,14 +5,14 @@ public class Movement : MonoBehaviour
     public float moveSpeed = 5f;
     private Rigidbody2D rb;
     private Animator anim;
-    private SpriteRenderer spriteRenderer; // Reference to the SpriteRenderer
+    private SpriteRenderer spriteRenderer;
     private float moveInput;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        spriteRenderer = GetComponent<SpriteRenderer>(); // Get the component
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void Update()
@@ -29,7 +29,16 @@ public class Movement : MonoBehaviour
             spriteRenderer.flipX = false; // Facing left
         }
 
-        // Pass movement speed magnitude to the Animator
+        // Freeze animation if stationary, otherwise play at normal speed
+        if (Mathf.Abs(moveInput) > 0f)
+        {
+            anim.speed = 1f;
+        }
+        else
+        {
+            anim.speed = 0f;
+        }
+
         anim.SetFloat("Speed", Mathf.Abs(moveInput));
     }
 
