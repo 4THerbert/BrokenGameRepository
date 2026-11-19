@@ -1,0 +1,277 @@
+fileFormatVersion: 2
+guid: bb6d2ca8e9169b24abfb1c4d5d038ff6
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Lil guy [Recovered]-01_0
+    21300002: Lil guy [Recovered]-01_1
+    21300004: Lil guy [Recovered]-01_2
+    21300006: Lil guy [Recovered]-01_3
+    21300008: Lil guy [Recovered]-01_4
+    21300010: Lil guy [Recovered]-01_5
+    21300012: Lil guy [Recovered]-01_6
+    21300014: Lil guy [Recovered]-01_7
+    21300016: Lil guy [Recovered]-01_8
+    21300018: Lil guy [Recovered]-01_9
+    21300020: Lil guy [Recovered]-01_10
+    21300022: Lil guy [Recovered]-01_11
+    21300024: Lil guy [Recovered]-01_12
+    21300026: Lil guy [Recovered]-01_13
+    21300028: Lil guy [Recovered]-01_14
+    21300030: Lil guy [Recovered]-01_15
+    21300032: Lil guy [Recovered]-01_16
+    21300034: Lil guy [Recovered]-01_17
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lil guy [Recovered]-01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1627.0435
+        width: 72.91428
+        height: 73.95652
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b872d3a9fd24614088c4708cd81bbab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lil guy [Recovered]-01_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1627.0435
+        width: 72.91428
+        height: 73.95652
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5834ad0745aa684393d1f7fe98c3284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lil guy [Recovered]-01_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1627.0435
+        width: 72.91428
+        height: 73.95652
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e889c939fd43ef4481a5cecb2d897ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lil guy [Recovered]-01_3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1627.0435
+        width: 72.91428
+        height: 73.95652
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a252197b096d9804dbfff983df5361b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lil guy [Recovered]-01_4
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1627.0435
+        width: 72.91428
+        height: 73.95652
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b366cdf230d154595b7db2ca81b34f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lil guy [Recovered]-01_5
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1627.0435
+        width: 72.91428
+        height: 73.95652
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c560e18537e5b904887430b192867a53
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lil guy [Recovered]-01_6
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1627.0435
+        width: 72.91428
+        height: 73.95652
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c9863a1fcb32142a38fc033c32dd9f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lil guy [Recovered]-01_7
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1627.0435
+        width: 72.91428
+        height: 73.95652
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a14b2bd66d334846a8f4361a1ac854e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 05488d14bf6dcb647805169cad37f2c1
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
